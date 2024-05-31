@@ -19,6 +19,7 @@ Challenge description
 A log file contains newline-terminated, space-separated text formatted like:
 
 <unix_timestamp> <hostname> <hostname>
+
 For example:
 
 1366815793 quark garak
@@ -34,7 +35,7 @@ Goals to Achieve:
 
 1. Parse the data with a time_init, time_end (Required ~3h)
 
-Build a tool, that given the name of a file (with the format described above), an init_datetime , an end_datetime, and a Hostname, returns:
+  Build a tool, that given the name of a file (with the format described above), an init_datetime , an end_datetime, and a Hostname, returns:
 
 - A list of hostnames connected to the given host during the given period.
   
