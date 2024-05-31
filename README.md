@@ -10,14 +10,17 @@ Your answer will be evaluated based on:
 - Would this code be easy to extend or maintain?
 - Is the code easy to comprehend?
 - Performs well?
+
 Your implementation must be your own, making use of your standard library. Also, please feel free
 to consult any relevant documentation. Please provide a complete solution, including any
 instructions an engineer would need to build and run your software, e.g. a README, Makefile,
 setup.py, build.xml, etc.
 Challenge description
 A log file contains newline-terminated, space-separated text formatted like:
+
 <unix_timestamp> <hostname> <hostname>
 For example:
+
 1366815793 quark garak
 1366815795 brunt quark
 1366815811 lilac garak
