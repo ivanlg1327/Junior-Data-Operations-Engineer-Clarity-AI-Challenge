@@ -45,11 +45,12 @@ The tool should both parse previously written log files and terminate or collect
 file while it's being written and run indefinitely.
 The script will output, once every hour:
 
-● A list of hostnames connected to a given (configurable) host during the last hour.
+- A list of hostnames connected to a given (configurable) host during the last hour.
 
-● A list of hostnames received connections from a given (configurable) host during the last hour.
+- A list of hostnames received connections from a given (configurable) host during the last hour.
 
-● The hostname that generated most connections in the last hour.
+- The hostname that generated most connections in the last hour.
 
 Both the number of log lines and hostnames can be very high. Consider implementing a CPU and
-memory-efficient s
+memory-efficient solution. Please feel free to make assumptions as necessary with proper
+documentation.
