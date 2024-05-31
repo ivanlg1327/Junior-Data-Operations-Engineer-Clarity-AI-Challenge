@@ -33,7 +33,7 @@ are roughly sorted by timestamp. They might be out of order by maximum 5 minutes
 Implement a tool that parse log files like these, we provide you a input Data Example.
 Goals to Achieve:
 
-1. Parse the data with a time_init, time_end (Required ~3h)
+1- Parse the data with a time_init, time_end (Required ~3h)
 
   Build a tool, that given the name of a file (with the format described above), an init_datetime , an end_datetime, and a Hostname, returns:
 
