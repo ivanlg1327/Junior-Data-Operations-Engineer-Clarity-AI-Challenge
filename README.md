@@ -39,7 +39,7 @@ Goals to Achieve:
 
 - A list of hostnames connected to the given host during the given period.
   
-2. Unlimited Input Parser (Optional ~3h)
+2- Unlimited Input Parser (Optional ~3h)
 
 The tool should both parse previously written log files and terminate or collect input from a new log
 file while it's being written and run indefinitely.
